@@ -63,6 +63,12 @@ if __name__ == '__main__':
     sys.exit(__main__._main())
 ```
 
+vim /etc/ssh/sshd_config
+
+set : PermitRootLogin yes
+
+```service ssh restart```
+
 ### 4.安装kubernetes集群
 
 - 4.1 下载项目源码
